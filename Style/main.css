@@ -98,7 +98,7 @@ a:hover{
 h1 {
     font-size: 2.4193rem;
     color: var(--Dark-Grayish-Blue);
-    margin-top: 2rem;
+    margin-top: 5rem;
 }
 
 @media (max-width: 414px){
@@ -112,6 +112,10 @@ h1 {
     width: 21rem;
     font-size: 2rem;
     }
+}
+
+h2 {
+    font-size: 1.86em;
 }
 
 p {
@@ -135,7 +139,7 @@ p {
 }
 
 .section {
-    margin-top: 120px;
+    margin-top: 8rem;
 }
 
 @media (max-width: 768px){
@@ -186,7 +190,7 @@ p {
 }
 
 .btn-container {
-    margin-top: 2rem;
+    margin-top: 3rem;
 }
 
 @media (max-width: 414px){
