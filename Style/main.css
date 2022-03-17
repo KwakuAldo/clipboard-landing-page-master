@@ -138,6 +138,7 @@ p {
     }
 }
 
+
 .section {
     margin-top: 8rem;
 }
@@ -159,6 +160,10 @@ p {
     .section { 
     width: 22.5rem;
     }
+}
+
+.section-1 {
+    margin-top: 10.625rem;
 }
 
 .container {
