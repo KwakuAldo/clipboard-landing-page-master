@@ -134,25 +134,25 @@ p {
     }
 }
 
-section {
+.section {
     margin-top: 120px;
 }
 
 @media (max-width: 768px){
-    section {
+    .section {
         width: 750px;
     }
 
 }
 
 @media (max-width: 414px){
-    section { 
+    .section { 
     width: 25rem;
     }
 }
 
 @media (max-width: 375px){
-    section { 
+    .section { 
     width: 22.5rem;
     }
 }
