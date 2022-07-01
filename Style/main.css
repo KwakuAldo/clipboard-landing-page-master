@@ -29,6 +29,7 @@ body {
 
 main {
     width: 100%;
+    overflow: hidden;
 }
 
 a {
@@ -42,7 +43,7 @@ a:hover{
 .main-container {
     display: flex;
     flex-direction: column;
-    width: 67.5rem;
+    width: 48rem;
     margin: 0 auto;
 }
 
@@ -191,6 +192,7 @@ aside p {
     width: 100%;
     background-color: hsl(201deg 11% 90%);
     height: auto;
+    overflow: hidden;
 }
 
 .footer-container {
@@ -328,7 +330,7 @@ aside p {
         margin: 1.125rem;
     }
     .section { 
-    width: 25rem;
+    width: 100%;
     }
     .txt-container {
         width: 23.5rem;
@@ -358,6 +360,7 @@ aside p {
     }
     .image-computer {
         height: 19.375rem;
+        background-position: center;
     }
     aside h3 {
         font-size: 1.5rem;
@@ -400,6 +403,12 @@ aside p {
     }
 }
 
+@media (max-width: 414px) {
+    .main-container {
+        width: 25.875rem;
+    }
+}
+
 
 @media (max-width: 375px){
     body {
@@ -419,7 +428,7 @@ aside p {
         margin: 0;
     }
     .section { 
-    width: 22.5rem;
+    width: 100%;
     }
     .txt-container { 
     width: 21rem;
